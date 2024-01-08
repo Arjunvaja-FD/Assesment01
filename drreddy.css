@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col50{
+    width: 50%;
+}
+.logo{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.menu a {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.menu ul  {
+    display: flex;
+}
+.menu ul li {
+    list-style: none;
+}
+.goals ul li{
+    list-style: none;
+}
+.header{
+    display: flex;
+}
+.menu ul li a{
+    display: flex;
+}
+i{
+    color: blue;
+    width: 20px;
+}
+.glob{
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.line{
+    padding-left: 10px;
+    font-size: 20px;
+}
+.page3 , .page5{
+    display: flex;
+}
+.img1 , .img2 , .bb1 , .bb2 {
+    margin-left: 130px;
+}
+.first {
+    margin-left: 50px;
+    padding-right: 70px;
+    font-size: 20px;
+    font-weight:lighter;
+} 
+.second{
+    margin-top: 0;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-right: 70px;
+    font-weight: lighter;
+} 
+.first , .second{
+    font-size: 20px;
+}
+.arrow{
+    font-size: 30px;
+    width: 30px;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+.page4{
+    background: url(../Drreddy/images/Mask-Group-432x.jpg)no-repeat center center/cover;
+
+    
+
+}
+.page4 > p{
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    font-size: 20px;
+}
+.row1 h1 , .row2 h1{
+    font-size: 150px;
+}
+.row1 , .row2{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    padding-right: 50px;
+}
+.row1 p , .row2 p{
+    font-size: 30px;
+}
+.data2 , .data3{
+    padding-left: 150px;
+}
+.text2 > h1{
+    font-size: 50px;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 80px;
+    padding-right: 50px;
+    font-size: 70px;
+    font-weight:lighter;
+}
+.bb1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-size: 17px;
+    padding: 60px 144px 180px;
+}
+.bb2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-size: 8px;
+    padding: 60px 144px 180px;
+}
+.page6 h1 , .page8 h1{
+    font-size: 40px;
+    margin-left: 190px;
+}
+.link{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+.link2{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.page6 , .page8{
+    background-color: #EDEDED;
+}
+.page5{
+    padding: 120px 144px;
+}
+.page4{
+    padding: 80px 144px;
+}
+.page3 , .page7{
+    padding:120px 144px ;
+}
+.goals ul{
+    display: flex;
+}
+.goals ul li  a{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.page7 h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.goals a {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.plant{
+    display: flex;
+    justify-content: space-between;
+}
+.emission  ul li{
+    color: #333333;
+    font-weight: 300px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.water{
+    margin: 24px 0px 10px;
+}
+.water li{
+    margin: 0px 0px 7px;
+}
+.we{
+    width: 357px;
+    height: 280px;
+}
+.news{
+    display: flex;
+}
+.editorial ul li {
+    list-style: none;
+
+}
+.editorial ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 80px 144px 60px;
+    justify-content: space-between;
+}
+.home li{
+    list-style: none;
+    margin: 0px 0px 20px;
+}
+.home li a , .seeker li a , .seeker2 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.last{
+    background-color: black;
+    position: relative;
+
+}
+.logo2{
+    position: absolute;
+    background-color: black;
+    right: 0px;
+    bottom: 0px;
+}
+.seeker , .seeker2{
+    background-color: black;
+    text-align: right;
+    flex-direction: row;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.seeker a , .seeker2 a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+.seeker2{
+    background-color: black;
+    text-align: left;
+    flex-direction: row;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.seek2{
+    background-color: black;
+}
+.insta{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+.fb{
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+    
+}
+.f{
+    padding-left: 50px;
+    color: white;
+}
+.mag{
+    height: 500px;
+    width: 100%;
+    background-color: teal;
+    animation-name: magic;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function:linear;
+}
+
+
+@keyframes magic {
+    0%{
+        background: url(../Drreddy/images/scientist.png) no-repeat center center/cover;
+    }
+    33%{
+        background: url(../Drreddy/images/scientist2.png) no-repeat center center/cover;
+    }
+    67%{
+        background: url(../Drreddy/images/scientist3.png) no-repeat center center/cover;
+    }
+
+}
+
